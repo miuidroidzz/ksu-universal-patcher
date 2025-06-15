@@ -17,14 +17,14 @@ on:
                 required: false
                 default: false
             KERNEL_GIT:
-                description: 'https://github.com/alternoegraha/wwy_kernel_xiaomi_fog_rebase.git:'
+                description: 'Link to the git repository of your preferred kernel source:'
                 required: true
             KERNEL_GIT_BRANCH:
-                description: 'main:'
+                description: 'Preferred branch of the kernel source git repository:'
                 required: true
             KERNEL_ARCH:
                 type: choice
-                description: 'arm64:'
+                description: 'Kernel architecture (seperate from Android architecture):'
                 required: true
                 options:
                     - 'arm64'
